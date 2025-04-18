@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Navbar from "./components/Navbar.vue";
-import Hero from "./components/Hero.vue";
+import Video from "./components/Video.vue";
 import Benefits from "./components/Benefits.vue";
 import Features from "./components/Features.vue";
 import Services from "./components/Services.vue";
@@ -17,7 +17,7 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <Navbar />
-  <Hero />
+  <Video />
   <Sponsors />
   <Benefits />
   <Features />

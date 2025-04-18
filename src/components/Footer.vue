@@ -145,20 +145,6 @@ import Separator from "./ui/separator/Separator.vue";
           </div>
         </div>
       </div>
-
-      <Separator class="my-6" />
-      <section className="">
-        <h3 class="">
-          &copy; 2024 Designed and developed by
-          <a
-            target="_blank"
-            href="https://github.com/leoMirandaa"
-            className="text-primary transition-all border-primary hover:border-b-2"
-          >
-            Leo Miranda
-          </a>
-        </h3>
-      </section>
     </div>
   </footer>
 </template>
