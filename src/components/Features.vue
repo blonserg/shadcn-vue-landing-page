@@ -84,15 +84,15 @@ const iconMap: Record<
     id="features"
     class="container py-24 sm:py-32"
   >
-    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
+    <h2 class="text-lg text-primary text-center mb-2 tracking-wider" data-aos="fade-up">
       Features
     </h2>
 
-    <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
+    <h2 class="text-3xl md:text-4xl text-center font-bold mb-4" data-aos="fade-up">
       What Makes Us Different
     </h2>
 
-    <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
+    <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8" data-aos="fade-up">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
       fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
       facere tenetur.
@@ -103,7 +103,7 @@ const iconMap: Record<
         v-for="{ icon, title, description } in featureList"
         :key="title"
       >
-        <Card class="h-full bg-background border-0 shadow-none">
+        <Card class="h-full bg-background border-0 shadow-none" data-aos="fade-up">
           <CardHeader class="flex justify-center items-center">
             <div
               class="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4"

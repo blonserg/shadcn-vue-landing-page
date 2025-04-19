@@ -20,11 +20,11 @@ import { ArrowRight } from "lucide-vue-next";
           <span class="mr-2 text-primary">
             <Badge>New</Badge>
           </span>
-          <span> Design is out now! </span>
+          <span class="animate__animated animate__fadeInDown"> Design is out now! </span>
         </Badge>
 
         <div
-          class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold"
+          class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold animate__animated animate__fadeInUp"
         >
           <h1>
             Experience the

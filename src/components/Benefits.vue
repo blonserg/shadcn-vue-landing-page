@@ -70,10 +70,10 @@ const iconMap: Record<
       <div>
         <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">
           Your Shortcut to Success
         </h2>
-        <p class="text-xl text-muted-foreground mb-8">
+        <p class="text-xl text-muted-foreground mb-8" data-aos="fade-up">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
           reprehenderit architecto rerum similique facere odit deleniti
           necessitatibus quo quae.
@@ -85,6 +85,7 @@ const iconMap: Record<
           v-for="({ icon, title, description }, index) in benefitList"
           :key="title"
           class="bg-muted/50 dark:bg-card hover:bg-background dark:hover:bg-background transition-all delay-75 group/number"
+          data-aos="fade-left"
         >
           <CardHeader>
             <div class="flex justify-between">

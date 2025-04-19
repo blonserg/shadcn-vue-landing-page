@@ -53,16 +53,16 @@ const handleSubmit = () => {
     <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div>
         <div class="mb-4">
-          <h2 class="text-lg text-primary mb-2 tracking-wider">Contact</h2>
+          <h2 class="text-lg text-primary mb-2 tracking-wider" data-aos="fade-up">Contact</h2>
 
-          <h2 class="text-3xl md:text-4xl font-bold">Connect With Us</h2>
+          <h2 class="text-3xl md:text-4xl font-bold" data-aos="fade-up">Connect With Us</h2>
         </div>
-        <p class="mb-8 text-muted-foreground lg:w-5/6">
+        <p class="mb-8 text-muted-foreground lg:w-5/6" data-aos="fade-up">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
           ipsam sint enim exercitationem ex autem corrupti quas tenetur
         </p>
 
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4" data-aos="fade-up">
           <div>
             <div class="flex gap-2 mb-1">
               <Building2 />

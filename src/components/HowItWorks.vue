@@ -47,11 +47,11 @@ const HowItWorksList: HowItWorksProps[] = [
     class="container py-24 sm:py-32"
   >
     <div class="text-center mb-8">
-      <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
+      <h2 class="text-lg text-primary text-center mb-2 tracking-wider" data-aos="fade-up">
         How It Works
       </h2>
 
-      <h2 class="text-3xl md:text-4xl text-center font-bold">
+      <h2 class="text-3xl md:text-4xl text-center font-bold" data-aos="fade-up">
         Step-by-Step Process
       </h2>
     </div>
@@ -67,7 +67,7 @@ const HowItWorksList: HowItWorksProps[] = [
           { ' flex-row-reverse': index % 2 !== 0 },
         ]"
       >
-        <Card class="h-full bg-transparent border-0 shadow-none">
+        <Card class="h-full bg-transparent border-0 shadow-none" data-aos="fade-up">
           <CardHeader>
             <div class="pb-4">
               <Badge>{{ badgeTitle }}</Badge>
@@ -86,7 +86,7 @@ const HowItWorksList: HowItWorksProps[] = [
         <img
           :src="image"
           :alt="`Image describing ${title} `"
-          className="w-[150px]  md:w-[250px] lg:w-[300px] mx-auto -scale-x-100 "
+          className="w-[150px]  md:w-[250px] lg:w-[300px] mx-auto -scale-x-100 " data-aos="zoom-in"
         />
         <div
           :class="[

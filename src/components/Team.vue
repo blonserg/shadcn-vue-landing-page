@@ -186,9 +186,9 @@ const socialIcon = (socialName: string) => {
     class="container lg:w-[75%] py-24 sm:py-32"
   >
     <div class="text-center mb-8">
-      <h2 class="text-lg text-primary text-center mb-2 tracking-wider">Team</h2>
+      <h2 class="text-lg text-primary text-center mb-2 tracking-wider" data-aos="fade-up">Team</h2>
 
-      <h2 class="text-3xl md:text-4xl text-center font-bold">
+      <h2 class="text-3xl md:text-4xl text-center font-bold" data-aos="fade-up">
         The Company Dream Team
       </h2>
     </div>
@@ -206,6 +206,7 @@ const socialIcon = (socialName: string) => {
         } in teamList"
         :key="imageUrl"
         class="bg-muted/60 dark:bg-card flex flex-col h-full overflow-hidden group/hoverimg"
+        data-aos="zoom-in" data-aos-delay="500"
       >
         <CardHeader class="p-0 gap-0">
           <div class="h-full overflow-hidden">

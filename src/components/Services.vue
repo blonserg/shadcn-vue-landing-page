@@ -50,14 +50,14 @@ const serviceList: ServiceProps[] = [
     id="services"
     class="container py-24 sm:py-32"
   >
-    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
+    <h2 class="text-lg text-primary text-center mb-2 tracking-wider" data-aos="fade-up">
       Services
     </h2>
 
-    <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
+    <h2 class="text-3xl md:text-4xl text-center font-bold mb-4" data-aos="fade-up">
       Grow Your Business
     </h2>
-    <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
+    <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8" data-aos="fade-up">
       From marketing and sales to operations and strategy, we have the expertise
       to help you achieve your goals.
     </h3>
@@ -70,7 +70,7 @@ const serviceList: ServiceProps[] = [
         v-for="{ title, description, pro } in serviceList"
         :key="title"
       >
-        <Card class="bg-muted/60 dark:bg-card h-full relative">
+        <Card class="bg-muted/60 dark:bg-card h-full relative" data-aos="fade-up">
           <CardHeader>
             <CardTitle>{{ title }}</CardTitle>
             <CardDescription>{{ description }}</CardDescription>
