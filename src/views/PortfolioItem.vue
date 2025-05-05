@@ -1,29 +1,29 @@
 <template>
   <Navbar />
-  <Hero />
-  <Testimonials />
-  <div v-if="item">
-    <h1>{{ item.title }}</h1>
-    <p>{{ item.description }}</p>
-    <img :src="item.image" alt="" />
-  </div>
-  <div v-else>
+  <section v-if="item" class="container">
+    <div class="flex items-center justify-center">
+      <div class="mr-10">
+        <h1>{{ item.title }}</h1>
+        <p>{{ item.description }}</p>
+      </div>
+      <PortfolioCarousel />
+    </div>
+  </section>
+  <section v-else>
     <p>Item not found</p>
-  </div>
+  </section>
 </template>
 
 <script>
 import Navbar from "../components/Navbar.vue";
-import Hero from "../components/Hero.vue";
-import Testimonials from "../components/Testimonials.vue";
+import PortfolioCarousel from "../components/PortfolioCarousel.vue";
 import { portfolioItems } from '../data/portfolio';
 
 export default {
   props: ['id'],
   components: {
     Navbar,
-    Hero,
-    Testimonials,
+    PortfolioCarousel,
   },
   computed: {
     item() {

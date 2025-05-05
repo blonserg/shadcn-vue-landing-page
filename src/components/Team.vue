@@ -1,30 +1,11 @@
 <script setup lang="ts">
 import {
   Card,
-  CardContent,
   CardHeader,
   CardTitle,
-  CardFooter,
 } from "@/components/ui/card";
 
-import LinkedInIcon from "@/icons/LinkedInIcon.vue";
-import GithubIcon from "@/icons/GithubIcon.vue";
-import XIcon from "@/icons/XIcon.vue";
 import { portfolioItems } from '../data/portfolio';
-
-interface TeamProps {
-  imageUrl: string;
-  firstName: string;
-  lastName: string;
-  link: string;
-  positions: string[];
-  socialNetworks: SocialNetworkProps[];
-}
-
-interface SocialNetworkProps {
-  name: string;
-  url: string;
-}
 
 </script>
 
