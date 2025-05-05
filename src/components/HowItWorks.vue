@@ -11,62 +11,41 @@ interface HowItWorksProps {
 
 const HowItWorksList: HowItWorksProps[] = [
   {
-    badgeTitle: "Contribute",
-    title: "Make a Difference with Every Contribution",
+    badgeTitle: "President",
+    title: "Z. Abbas",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-    image: "roboto.png",
+      "zabbas@s1f.com",
+    image: "president.jpg",
   },
   {
-    badgeTitle: "Discover",
-    title: "Create an Impact with Every Choice",
+    badgeTitle: "President of Sales",
+    title: "Jeff Shine",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
-    image: "runner.png",
-  },
-  {
-    badgeTitle: "Innovate",
-    title: "Make Every Action Count",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
-    image: "pacheco.png",
-  },
-  {
-    badgeTitle: "Collaborate",
-    title: "Tackle this challenge together",
-    description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-    image: "gamestation.png",
+      "jshine@s1f.com",
+    image: "presidentsales.jpg",
   },
 ];
 </script>
 
 <template>
-  <section
-    id="features"
-    class="container py-24 sm:py-32"
-  >
+  <section id="features" class="container py-24 sm:py-32">
     <div class="text-center mb-8">
-      <h2 class="text-lg text-primary text-center mb-2 tracking-wider" data-aos="fade-up">
-        How It Works
-      </h2>
+      <!-- <h2 class="text-lg text-primary text-center mb-2 tracking-wider" data-aos="fade-up">
+        Team
+      </h2> -->
 
       <h2 class="text-3xl md:text-4xl text-center font-bold" data-aos="fade-up">
-        Step-by-Step Process
+        Team
       </h2>
     </div>
 
     <div class="lg:w-[80%] mx-auto relative">
-      <div
-        v-for="(
-          { badgeTitle, title, description, image }, index
-        ) in HowItWorksList"
-        :key="title"
-        :class="[
-          'flex mb-8 items-center',
+      <div v-for="(
+{ badgeTitle, title, description, image }, index
+        ) in HowItWorksList" :key="title" :class="[
+          'flex mb-8 items-center justify-center',
           { ' flex-row-reverse': index % 2 !== 0 },
-        ]"
-      >
+        ]">
         <Card class="h-full bg-transparent border-0 shadow-none" data-aos="fade-up">
           <CardHeader>
             <div class="pb-4">
@@ -83,19 +62,14 @@ const HowItWorksList: HowItWorksProps[] = [
           </CardContent>
         </Card>
 
-        <img
-          :src="image"
-          :alt="`Image describing ${title} `"
-          className="w-[150px]  md:w-[250px] lg:w-[300px] mx-auto -scale-x-100 " data-aos="zoom-in"
-        />
-        <div
-          :class="[
-            '-z-10 absolute right-0 w-44 h-72  lg:w-64 lg:h-80 rounded-full bg-primary/15 dark:bg-primary/10 blur-3xl',
-            {
-              'left-0': index % 2 !== 0,
-            },
-          ]"
-        ></div>
+        <img :src="image" :alt="`Image describing ${title} `"
+          className="w-[150px]  md:w-[250px] lg:w-[300px] -scale-x-100 " data-aos="zoom-in" />
+        <!-- <div :class="[
+          '-z-10 absolute right-0 w-44 h-72  lg:w-64 lg:h-80 rounded-full bg-primary/15 dark:bg-primary/10 blur-3xl',
+          {
+            'left-0': index % 2 !== 0,
+          },
+        ]"></div> -->
       </div>
     </div>
   </section>

@@ -107,7 +107,7 @@ const iconMap: Record<
       What Makes Us Different
     </h2>
 
-    <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8" data-aos="fade-up">
+    <h3 class="mx-auto text-xl text-center text-muted-foreground mb-8" data-aos="fade-up">
       Source One Floorings is an innovative provider of commercial flooring solution in the DC Metro area. Our vision is
       to redefine the flooring industry standards by delivering the highest level of contentment to our clients. Source
       One Flooring is committed to its founding principals of establishing relationships, delivering exceptional
