@@ -23,7 +23,6 @@ import { portfolioItems } from '../data/portfolio';
       <Card v-for="{
         id,
         title,
-        description,
         image,
       } in portfolioItems" :key="id"
         class="bg-muted/60 dark:bg-card flex flex-col h-full overflow-hidden group/hoverimg" data-aos="zoom-in"
